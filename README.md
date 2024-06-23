@@ -8,10 +8,17 @@ This code was used to achieve the objectives of the Biotechnology Bachelor's the
 (5) Gene Set Enrichment Analysis (GSEA).
 (6) Application of machine learning methods for the selection and analysis of relevant variables.
 
+Among the repository files, you will find:
+- DGEanalysis.R: alignment, feature counting and differential gene expression analysis using DESEq2.
+- annotation.R: subsequent gene annotation with ensembldb and biomaRt.
+- gsea.R: GSEA with Go terms and KEGG pathways using both fgsea and clusterProfiler.
+- learning methods that can be useful for interpreting differential expression data in a simplified manner, removing noise, and highlighting the most relevant genes.
+    - clustering.R: performs clustering with hierarchical methods, including the visualization of dendrograms and heatmaps, and with k-means, estimating the optimal number of clusters.
+    - efa.R: performs exploratory factor analysis, several tests are conducted with different combinations of rotation and factorization methods. Parallel analysis is conducted to estimate the number of factors. 
+    - ca.R: performs correspondence analysis, this is used for categorical variables. It allows the visualization of various two-dimensional graphs.
+    - featureselection.R: includes functions to implement various feature selection methods (correlation, relaimpo, stepwise, lasso, mars, rpart, boruta, recursive feature elimination, dalex, vita, regularized random forest, xgboost, genetic algorithm, simulated annealing)
+      
 ![image](https://github.com/luciadlm/RNAseq/assets/172217433/769218b5-67cc-4f48-8ab2-272cef165e48)
 
-Among the repository files, you will find alignment, feature counting, differential gene expression analysis (DGEanalysis.R), 
-subsequent gene annotation (annotation.R), and GSEA (gsea.R). The files efa.R, ca.R, and featureselection.R correspond to 
-learning methods that can be useful for interpreting differential expression data in a simplified manner, 
-removing noise, and highlighting the most relevant genes.
+
 
