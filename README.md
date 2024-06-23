@@ -1,7 +1,9 @@
 ### Lucía de Lamadrid - Biotechnology (UPM)
 
 This code was used to achieve the objectives of the Biotechnology Bachelor's thesis:
+
 "ANÁLISIS COMPUTACIONAL DE LA EXPRESIÓN GÉNICA MEDIANTE RNA-SEQ EN LA RESPUESTA AVIAR A LA INFECCIÓN POR EL VIRUS IBDV: EXPLORACIÓN DE MÉTODOS DE APRENDIZAJE NO SUPERVISADOS" 
+
 The methods were divided into six main stages: 
 1. Data acquisition, including sample preparation and sequencing.
 2. Alignment and quantification of reads with a reference genome.
